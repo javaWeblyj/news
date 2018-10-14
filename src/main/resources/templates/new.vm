@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <pre>
+            Hi velocity!
+            #*
+            这是注释规范
+             *#
+            value: $!{value}
+            $!{value2}<-null
+            ${value3}
+
+            #foreach($color in $colors)
+                Color $!{foreach.index}/$!{foreach.count}: $!{color}
+            #end
+
+            #foreach($key in $map.keySet())
+                Number $!{foreach.index}/$!{foreach.count}:$!{key} $map.get($key)
+            #end
+
+
+        </pre>
+
+    </body>
+</html>

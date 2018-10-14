@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!-- Globally enables or disables any caches configured in any mapper under this configuration
+            全局启用或禁用此配置下任何映射器中配置的任何高速缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- Sets the number of seconds the driver will wait for a response from the database
+            设置驱动程序等待数据库响应的秒数 -->
+        <setting name="defaultStatementTimeout" value="3000"/>
+        <!-- Enables automatic mapping from classic database column names A_COLUMN to camel case classic Java property names aColumn
+            启用从经典数据库列名A_COLUMN到驼峰式经典Java属性名称aColumn的自动映射 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--<setting name="map-underscore-to-camel-case" value="true"/>-->
+
+        <!-- Allows JDBC support for generated keys. A compatible driver is required.
+         This setting forces generated keys to be used if set to true,
+         as some drivers deny compatibility but still work
+          允许JDBC支持生成的键。需要一个兼容的驱动程序。如果设置为true，
+          此设置会强制使用生成的键，因此一些驱动程序拒绝兼容，但仍然可以工作-->
+        <setting name="useGeneratedKeys" value="true"/>
+    </settings>
+
+    <!-- Continue going here -->
+
+</configuration>

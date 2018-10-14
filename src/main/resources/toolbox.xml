@@ -1,0 +1,11 @@
+<toolbox>
+    <tool>
+    <key>date</key>
+    <scope>application</scope>
+    <class>org.apache.velocity.tools.generic.DateTool</class>
+</tool>
+</toolbox>
+
+<!-- toolbox 是velocity 里面定义的一个与时间相关的类，可以操作很多时间相关类
+ 能在 velocity 中直接使用
+ -->

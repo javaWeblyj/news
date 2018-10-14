@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+1.java.lang.NoSuchMethodError: org.apache.velocity.app.VelocityEngine.getLog()Lorg/apache/velocity/runtime/log/Log;
+    这个错误很多时候会是 jar包依赖出现错误，比如说手动引进了某jar， maven工具又引进了它。这就可能出现java.lang.NoSuchMethodError
+
+2.C:\Users\babyL\.m2\repository\org\springframework\spring-webmvc\4.2.6.RELEASE
+  maven 仓库路径
+-->
